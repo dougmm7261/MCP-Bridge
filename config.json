@@ -1,0 +1,12 @@
+{
+  "tools": [
+    {
+      "name": "fetch_url",
+      "command": ["npx", "-y", "@modelcontextprotocol/server-fetch"]
+    },
+    {
+      "name": "read_file",
+      "command": ["npx", "-y", "@modelcontextprotocol/server-filesystem", "/sandbox"]
+    }
+  ]
+}
